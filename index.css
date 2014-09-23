@@ -1,0 +1,21 @@
+
+/**
+ * Calq logo.
+ */
+
+.logo[data-logo="Calq"] {
+  width: 0;
+}
+
+.logo[data-logo="Calq"] > * {
+  background-image: url(images/logo.svg);
+  margin: 0 0 0 0;
+}
+
+.logo[data-logo="Calq"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="Calq"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
